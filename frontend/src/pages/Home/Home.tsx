@@ -8,7 +8,7 @@ import {
   DescriptionLine,
   DescriptionList,
 } from './Home.style';
-import logo from 'assets/logo.png';
+import logo from 'assets/AirTheodo.png';
 
 const Home: React.FunctionComponent = () => (
   <HomeContainer>
