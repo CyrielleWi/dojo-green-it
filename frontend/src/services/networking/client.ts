@@ -122,5 +122,6 @@ class Client {
 
 const client = new Client(backendBaseUrl);
 export const githubApiClient = new Client('https://api.github.com', false);
+export const unsplashApiClient = new Client('https://api.unsplash.com/', false);
 
 export default client;
