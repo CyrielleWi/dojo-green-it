@@ -50,6 +50,9 @@ export const colorUsage = {
 
 export const fontFamily = {
   main: `'Lato', 'Helvetica', 'Arial', sans-serif`,
+  title: `'CodyStar', 'Lato', 'Helvetica', 'Arial', sans-serif`,
+  subtitle: `'NewsCycle', 'Lato', 'Helvetica', 'Arial', sans-serif`,
+  subsubtitle: `'LondrinaShadow', 'Lato', 'Helvetica', 'Arial', sans-serif`,
   code: 'Monospace',
 };
 

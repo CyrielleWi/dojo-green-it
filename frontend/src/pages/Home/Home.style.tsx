@@ -1,13 +1,5 @@
 import styled from 'styled-components';
-import {
-  borderRadius,
-  colorUsage,
-  fontFamily,
-  fontSize,
-  fontWeight,
-  getSpacing,
-  lineHeight,
-} from 'stylesheet';
+import { fontFamily, fontSize, fontWeight, getSpacing, lineHeight } from 'stylesheet';
 
 export const HomeContainer = styled.div`
   display: flex;
@@ -24,43 +16,28 @@ export const Logo = styled.img`
 Logo.displayName = 'Logo';
 
 export const Title = styled.h1`
-  font-weight: ${fontWeight.bold};
-  font-family: ${fontFamily.main};
-  font-size: ${fontSize.large};
+  font-weight: ${fontWeight.normal};
+  font-family: ${fontFamily.title};
+  font-size: ${fontSize.XXLarge};
   line-height: ${lineHeight.medium};
   margin-bottom: ${getSpacing(12)};
 `;
 Title.displayName = 'Title';
 
-export const HowTo = styled.div`
-  padding: ${getSpacing(6)};
-  width: 100%;
-  max-width: ${getSpacing(120)};
-  box-sizing: border-box;
-  border-radius: ${borderRadius.large};
-  border: 1px dashed ${colorUsage.primaryTextColor};
-`;
-HowTo.displayName = 'HowTo';
-
-export const DescriptionList = styled.ul`
-  list-style: disc;
-  margin-left: ${getSpacing(4)};
-`;
-DescriptionList.displayName = 'DescriptionList';
-
-export const DescriptionLine = styled.li`
-  font-family: ${fontFamily.main};
-  font-weight: ${fontWeight.light};
-  font-size: ${fontSize.medium};
+export const SubTitle = styled.h1`
+  font-weight: ${fontWeight.bold};
+  font-family: ${fontFamily.subtitle};
+  font-size: ${fontSize.large};
   line-height: ${lineHeight.medium};
-  padding-left: ${getSpacing(1)};
-  margin-bottom: ${getSpacing(1)};
+  margin-bottom: ${getSpacing(5)};
 `;
-DescriptionLine.displayName = 'DescriptionLine';
+SubTitle.displayName = 'SubTitle';
 
-export const Code = styled.code`
-  color: ${colorUsage.codeColor};
-  font-family: ${fontFamily.code};
-  padding: ${getSpacing(1)};
+export const Announcement = styled.h1`
+  font-weight: ${fontWeight.normal};
+  font-family: ${fontFamily.subsubtitle};
+  font-size: ${fontSize.large};
+  line-height: ${lineHeight.medium};
+  margin-bottom: ${getSpacing(5)};
 `;
-Code.displayName = 'Code';
+Announcement.displayName = 'Announcement';
