@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { HomeContainer, Logo, Title, SubTitle, Announcement } from './Home.style';
+import Slider from 'components/Slider';
 import logo from 'assets/AirTheodo.png';
 
 const Home: React.FunctionComponent = () => (
@@ -11,6 +12,7 @@ const Home: React.FunctionComponent = () => (
     </SubTitle>
     <Announcement>Prochain embarquement &gt; Nantes !</Announcement>
     <Logo alt="forgelogo" src={logo} />
+    <Slider></Slider>
   </HomeContainer>
 );
 
