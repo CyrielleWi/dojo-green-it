@@ -41,6 +41,5 @@ Announcement.displayName = 'Announcement';
 
 export const Section = styled.div`
   margin-top: ${getSpacing(5)};
-  // align-self: start;
 `;
 Section.displayName = 'Section';

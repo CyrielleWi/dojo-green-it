@@ -20,9 +20,6 @@ export const DestinationInput = styled(Input)`
 `;
 DestinationInput.displayName = 'DestinationInput';
 
-export const ErrorMessage = styled.span``;
-ErrorMessage.displayName = 'ErrorMessage';
-
 export const Title = styled.h3`
   font-weight: ${fontWeight.normal};
   font-family: ${fontFamily.main};
