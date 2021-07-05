@@ -46,6 +46,7 @@ export const colorUsage = {
   inputBorderColor: colorPalette.blackTransparent,
   inputPlaceholderColor: colorPalette.bdazzledBlue,
   inputColor: colorPalette.bdazzledBlue,
+  tooltipTextColor: colorPalette.white,
 };
 
 export const fontFamily = {
