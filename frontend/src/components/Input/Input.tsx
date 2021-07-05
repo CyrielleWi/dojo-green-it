@@ -18,6 +18,7 @@ const Input = styled.input<Props>`
   border-radius: ${borderRadius.medium};
   border: 1px solid;
   border-color: ${props => getBorderColor(props.hasError, colorUsage.inputBorderColor)};
+  color: ${colorUsage.inputColor};
 
   :hover {
     border-color: ${props => getBorderColor(props.hasError, colorUsage.primaryTextColor)};

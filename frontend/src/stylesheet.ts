@@ -10,12 +10,12 @@ const MEASUREMENT_UNIT = 'px';
  * Create an entry in the colorUsage below instead
  */
 const colorPalette = {
+  bdazzledBlue: '#2859A2',
+  greenSheen: '#6FC2B7',
+  middleBlueGreen: '#A9DAD4',
+  lavenderBlush: '#FEEEEB',
   greyLight: '#e0e0e0',
   greyDark: '#222',
-  amberLight: '#FFD54F',
-  amber: '#FFC107',
-  amberDark: '#FF8F00',
-  blueLight: '#F4F9FB',
   white: '#FFFFFF',
   red: '#FF7373',
   blackTransparent: 'rgba(0, 0, 0, 0.24)',
@@ -27,25 +27,25 @@ const colorPalette = {
  * Ex: fill, border-color, background-color, color ...
  */
 export const colorUsage = {
-  headerBackground: colorPalette.greyDark,
-  primaryTextColor: colorPalette.greyDark,
-  primaryLight: colorPalette.amberLight,
-  primary: colorPalette.amber,
-  primaryDark: colorPalette.amberDark,
-  contentBackground: colorPalette.blueLight,
+  primaryTextColor: colorPalette.bdazzledBlue,
+  primary: colorPalette.bdazzledBlue,
+  contentBackground: colorPalette.lavenderBlush,
+  secondary: colorPalette.greenSheen,
+  secondaryColorLight: colorPalette.middleBlueGreen,
+  secondaryTextColor: colorPalette.greenSheen,
   linkColor: colorPalette.greyDark,
-  linkColorHover: colorPalette.amberDark,
+  linkColorHover: colorPalette.greenSheen,
   linkColorDisabled: colorPalette.greyLight,
-  codeColor: colorPalette.amberDark,
   primaryButtonColor: colorPalette.white,
-  primaryButtonBackground: colorPalette.amberDark,
-  primaryButtonBackgroundHover: colorPalette.amber,
+  primaryButtonBackground: colorPalette.greenSheen,
+  primaryButtonBackgroundHover: colorPalette.greenSheen,
   primaryButtonBackgroundDisabled: colorPalette.greyLight,
-  loaderColorDefault: colorPalette.amberDark,
+  loaderColorDefault: colorPalette.bdazzledBlue,
   error: colorPalette.red,
   inputBackground: colorPalette.white,
   inputBorderColor: colorPalette.blackTransparent,
-  inputPlaceholderColor: colorPalette.blackTransparent,
+  inputPlaceholderColor: colorPalette.bdazzledBlue,
+  inputColor: colorPalette.bdazzledBlue,
 };
 
 export const fontFamily = {
