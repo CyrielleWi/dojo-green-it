@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { HomeContainer, Logo, Title, SubTitle, Announcement } from './Home.style';
+import { HomeContainer, Title, SubTitle, Announcement } from './Home.style';
 import Slider from 'components/Slider';
-import logo from 'assets/AirTheodo.png';
 import moment from 'moment';
 
 const Home: React.FunctionComponent = () => {
@@ -19,7 +18,6 @@ const Home: React.FunctionComponent = () => {
         l&apos;Angleterre !
       </SubTitle>
       <Announcement>Prochain embarquement &gt; Nantes le {getFormattedDate()}</Announcement>
-      <Logo alt="forgelogo" src={logo} />
       <Slider></Slider>
     </HomeContainer>
   );

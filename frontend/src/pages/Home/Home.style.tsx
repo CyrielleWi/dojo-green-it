@@ -9,12 +9,6 @@ export const HomeContainer = styled.div`
 `;
 HomeContainer.displayName = 'HomeContainer';
 
-export const Logo = styled.img`
-  width: ${getSpacing(32)};
-  margin-bottom: ${getSpacing(4)};
-`;
-Logo.displayName = 'Logo';
-
 export const Title = styled.h1`
   font-weight: ${fontWeight.normal};
   font-family: ${fontFamily.title};
