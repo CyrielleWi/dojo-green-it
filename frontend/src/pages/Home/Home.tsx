@@ -3,6 +3,7 @@ import { HomeContainer, Title, SubTitle, Announcement, Section } from './Home.st
 import Slider from 'components/Slider';
 import moment from 'moment';
 import ChooseDestination from '../../components/ChooseDestination';
+import Mapbox from 'components/Mapbox';
 
 const Home: React.FunctionComponent = () => {
   const getFormattedDate = (): string => {
@@ -23,6 +24,10 @@ const Home: React.FunctionComponent = () => {
 
       <Section>
         <ChooseDestination></ChooseDestination>
+      </Section>
+      <Section>
+        <SubTitle>Où nous trouver ?</SubTitle>
+        <Mapbox />
       </Section>
     </HomeContainer>
   );
