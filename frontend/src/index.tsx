@@ -1,5 +1,5 @@
 import * as Sentry from '@sentry/browser';
-import 'babel-polyfill';
+import 'core-js/stable';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
