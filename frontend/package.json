@@ -7,17 +7,18 @@
     "@formatjs/intl-relativetimeformat": "4.5.1",
     "@reduxjs/toolkit": "1.5.0",
     "@sentry/browser": "5.10.0",
-    "babel-polyfill": "6.26.0",
     "env-cmd": "8.0.2",
     "formik": "2.0.6",
     "history": "4.10.1",
     "jwt-decode": "2.2.0",
     "lodash": "4.17.15",
+    "mapbox-gl": "2.3.1",
     "moment": "2.24.0",
     "react": "17.0.1",
     "react-alice-carousel": "2.5.1",
     "react-dom": "17.0.1",
     "react-intl": "3.9.1",
+    "react-map-gl": "6.1.16",
     "react-redux": "7.2.2",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
@@ -43,12 +44,20 @@
     "lint-style": "stylelint 'src/**/*.style.{ts,tsx}' 'src/**/style.{ts,tsx}'",
     "type-check": "tsc"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not chrome < 51",
+      "not safari < 10"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",
@@ -85,6 +94,7 @@
     "@types/jest": "24.0.23",
     "@types/jwt-decode": "2.2.1",
     "@types/lodash": "4.14.149",
+    "@types/mapbox-gl": "^2.3.1",
     "@types/node": "10.12.18",
     "@types/react": "17.0.3",
     "@types/react-dom": "17.0.2",
